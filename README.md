@@ -23,8 +23,8 @@ You will be given a blank repo for this one! You are building a server from scra
 
 Your grade on this assignment will be determined by the number of tasks you are able to complete. Tasks appear as a checkbox, like this:
 
-- [ ] example of an incomplete task
-- [x] example of an completed task
+- <input type="checkbox"> example of an incomplete task
+- <input type="checkbox" checked > example of an completed task
 
 Feel free to mark these tasks as complete/incomplete, however your instructor will likely modify your tasks when grading.
 
@@ -37,25 +37,25 @@ You got this!
 
 **Setup Technical Requirements**
 
-- [ ] Has a `server` folder with an `index.js` file and a `package.json` file inside
-- [ ] `package.json` has `express` installed as a dependency and `nodemon` as a dev dependency
-- [ ] `package.json` has a `"dev"` script that uses `nodemon` and a `"start"` script that uses `node`
+- <input type="checkbox" checked> Has a `server` folder with an `index.js` file and a `package.json` file inside
+- <input type="checkbox" checked> `package.json` has `express` installed as a dependency and `nodemon` as a dev dependency
+- <input type="checkbox" checked> `package.json` has a `"dev"` script that uses `nodemon` and a `"start"` script that uses `node`
 
 **Server Application Technical Requirements**
 
-- [ ] In `index.js`, the `express()` function is used to create an `app`
-- [ ] There are 4 controller functions
-  - [ ] Two controllers send an HTML response (either raw HTML or an HTML file)
-  - [ ] Two controllers send a data response
-  - [ ] One of the controllers uses query parameters in some way (`req.query.parameterName`)
-- [ ] There are 4 GET endpoints
-  - [ ] Endpoints that provided data start with `/api` (ex: `/api/name` returns a name)
-  - [ ] Endpoints that provide HTML start with `/` (ex: `/about` returns the about HTML page)
-- [ ] The `app` listens on an available port (I recommend `8080`)
+- <input type="checkbox" checked> In `index.js`, the `express()` function is used to **initialize** an `app`
+- <input type="checkbox" checked> There are 4 controller functions
+  - <input type="checkbox" checked > Two controllers send an HTML response (either raw HTML or an HTML file)
+  - <input type="checkbox" checked> Two controllers send a data response
+  - <input type="checkbox" > One of the controllers uses query parameters in some way (`req.query.parameterName`) How would I do this?
+- <input type="checkbox" checked> There are 4 GET endpoints
+  - <input type="checkbox" checked> Endpoints that provided data start with `/api` (ex: `/api/name` returns a name)
+  - <input type="checkbox" checked> Endpoints that provide HTML start with `/` (ex: `/about` returns the about HTML page)
+- <input type="checkbox" checked> The `app` listens on an available port (I recommend `8080`)
 
 **Deployment Technical Requirements**
 
-- [ ] Your GitHub page has a link to the deployed server in the About section. 
+- <input type="checkbox"> Your GitHub page has a link to the deployed server in the About section. 
 
 ## Part 1 - Setup
 
