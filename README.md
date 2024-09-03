@@ -55,8 +55,8 @@ You got this!
 
 **Deployment Technical Requirements**
 
-- <input type="checkbox"> Your GitHub page has a link to the deployed server in the About section. 
-
+- <input type="checkbox" checked> Your GitHub page has a link to the deployed server in the About section. 
+(did this but Render keeps using the wrong start command for some reason)
 ## Part 1 - Setup
 
 **Create your files:**
